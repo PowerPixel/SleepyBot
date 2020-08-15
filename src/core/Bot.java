@@ -31,7 +31,7 @@ public class Bot {
 				messageToSend.send(event.getChannel());
 			}
 			
-		}).setToken("NzQ0MTQxMDAwMDk1ODI2MDMx.Xze5Tw.oPZ27goCcx5btxB4Tpfx7OExDE0")
+		}).setToken("yourtokenhere")
 				.login()
 				.join();
 		System.out.println(currentApi.createBotInvite());
